@@ -22,6 +22,7 @@ Mac下你只需要在launchpad中打开`字体册`程序，让将字体拖入到
 
 还有比如说苹果字体`monaco`，也很漂亮。
 
+![monaco](https://cloud.githubusercontent.com/assets/4246425/13221785/092c53f8-d9b8-11e5-93e7-7d2f4c3dee90.png)
 
 还有`yahei_mono`也是另外一个组合字体，也很漂亮。
 
