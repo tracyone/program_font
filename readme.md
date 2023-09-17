@@ -34,3 +34,15 @@ Mac下你只需要在launchpad中打开`字体册`程序，让将字体拖入到
 
 由于我的工作环境是ubuntu，在编写文档后，为了不至于拿到Windows下变了样子，所以希望保持文档所用字体的一致，所以收集下Window下的一些字体，用Windows的同学可以忽略这部分字体（宋体，黑体等）。
 
+## Nerd fonts
+
+Example of patch your [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)
+
+```
+brew install fontforge
+unzip -d FontPatcher ./FontPatcher.zip
+fontforge -script FontPatcher/font-patcher ./MONACO.TTF
+```
+
+
+After executing the above command,  `MonacoNerdFont-Regular.TTF` file was generated.
