@@ -41,7 +41,7 @@ Example of patch your [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)
 ```
 brew install fontforge
 unzip -d FontPatcher ./FontPatcher.zip
-fontforge -script FontPatcher/font-patcher ./MONACO.TTF
+fontforge -script FontPatcher/font-patcher --complete ./MONACO.TTF
 ```
 
 
