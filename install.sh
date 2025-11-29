@@ -13,6 +13,6 @@ else
 fi
 
 echo "Install start..."
-find . -regextype posix-egrep -iregex '.*\.tt[cf]$' -exec cp {} ${font_dir}  \;
+find .  -iregex '.*\.tt[cf]$' -exec cp {} ${font_dir}  \;
 sudo fc-cache -f -v
-echo "Install finish..."
+#echo "Install finish..."
